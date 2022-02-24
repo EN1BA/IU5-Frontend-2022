@@ -1,0 +1,134 @@
+body{
+    background: url("images/bg1.jpg");
+}
+
+a {
+    position:absolute;
+    margin-left: 89%;
+    margin-top: 1.5%;
+    font-size: 27px;
+    text-decoration: none;
+    color: #000000;
+    font-style: oblique;
+    background-color: #b9ebff;
+    border-radius: 20%;
+}
+
+a:hover{
+    background-color: #58afd1;
+}
+
+.phrase{
+    position:absolute;
+    background-color: #87ceeb;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 35px;
+    text-align: center;
+}
+
+#flags{
+    width: 6%;
+    margin-left: 28%;
+}
+
+#tabl{
+    position:absolute;
+    table-layout: fixed;
+    width: 27%;
+    margin-left: 3%;
+    margin-top: 8%;
+    border: 3px solid rgb(135,206, 235);
+    font-size: 20px;
+}
+
+th, td{
+    border: 3px solid rgb(135,206, 235);
+    border-collapse:collapse;
+    padding: 10px;
+}
+
+#text{
+    text-align: center;
+}
+
+#zagol{
+    font-size: 40px;
+}
+
+.info{
+    position: absolute;
+    width: 33%;
+    margin-left: 34%;
+    margin-top: 8%;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.info::first-letter {   
+    font-size: 35px;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    margin-right: 2px;
+}
+
+#plan1{
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 6.5%;
+}
+
+.plan2{
+    width: 90%;
+    border-radius: 20%;
+}
+
+#map{
+    position: absolute;
+    margin-left: 82.5%;
+    margin-top: 24%;
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    background-color: #d5f3ff;
+}
+
+#podp{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 12.5%;
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    background-color: #d5f3ff;
+}
+
+#forma{
+    width: 26%;
+    position: absolute;
+    margin-left:71%;
+    margin-top:27%;
+    padding: 8px;
+    background-color: aliceblue;
+    border: 3px solid rgb(135,206, 235);
+}
+
+#zagol2{
+    text-align: center;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  #header{
+    position: absolute;
+    font-size: 100%;
+}
+
+#inf{
+    position:absolute;
+    font-size: 75px;
+    margin-left: 17%;
+    margin-top: 3.5%;
+}
