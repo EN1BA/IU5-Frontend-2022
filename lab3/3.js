@@ -8,7 +8,15 @@
  */
 
 function multiplyArray(arr, n) {
-    // code here
+    let arr2=[];
+    for (let i=0;i<arr.length;i++){
+        if (typeof arr[i] === 'number'){
+            arr2[i]=arr[i]*n;
+        }
+        else
+        arr2[i]=arr[i];
+    }
+    return arr2;
 }
 
 module.exports = multiplyArray;
