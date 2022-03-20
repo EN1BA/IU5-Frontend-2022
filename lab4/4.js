@@ -17,7 +17,13 @@
 */
 
 function get1DArray(arr) {
-    //code here
+    let res = [];
+    for (let i=0;i<arr.length;i++) {
+       if (Array.isArray(arr[i]))
+           res = res.concat(get1DArray(arr[i])); else
+           res.push(arr[i]);
+       }
+    return res;
 }
 
 module.exports = get1DArray;
