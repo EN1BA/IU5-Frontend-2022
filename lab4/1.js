@@ -15,12 +15,13 @@ function getAnagramms(arr) {
             map.set(sort,buff+' '+arr[i]);
         } else map.set(sort,arr[i]);
         }
+        
     let res = [];
     let sub = Array.from(map.values());
     for (let i = 0; i < sub.length; i++) {
         res.push(sub[i].split(' '))
     }
-    
+
     return res;
 }
 
