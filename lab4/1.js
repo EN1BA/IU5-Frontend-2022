@@ -7,7 +7,7 @@
  */
 function getAnagramms(arr) {
     let map = new Map();
-    
+
     for (let i=0;i<arr.length;i++) {
         let sort = arr[i].toLowerCase().split('').sort().join('');
         if (map.has(sort) === true){
@@ -20,6 +20,7 @@ function getAnagramms(arr) {
     for (let i = 0; i < sub.length; i++) {
         res.push(sub[i].split(' '))
     }
+    
     return res;
 }
 
