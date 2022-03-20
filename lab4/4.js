@@ -23,6 +23,7 @@ function get1DArray(arr) {
            res = res.concat(get1DArray(arr[i])); else
            res.push(arr[i]);
        }
+       
     return res;
 }
 
