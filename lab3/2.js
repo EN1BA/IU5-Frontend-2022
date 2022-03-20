@@ -17,6 +17,7 @@ function getMinMax(str) {
             max=Number(v[i]);}
             if (Number(v[i])<min){
             min=Number(v[i]);}
+            
         }
     }
     return {min, max};
