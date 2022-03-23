@@ -10,8 +10,17 @@
  * [(<>)] --> true
  */
 
-function checkBrackets(str) {
-    //code here
+function checkBrackets(str){
+    let left=str[0];
+    for (i=0;i<str.length;i++)
+    {
+        let rigth = str[i+1];
+        if ((left== "(") && ((rigth == "]") || (rigth == ">"))) return false;
+        if ((left == "[") && ((rigth == ")") || (rigth == ">"))) return false;
+        if ((left== "<") && ((rigth == ")") || (rigth == "]"))) return false;
+        left=rigth;
+    }
+    return true;
 }
 
 module.exports = checkBrackets;
