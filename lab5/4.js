@@ -14,7 +14,12 @@
  */
 
 function memoize(func) {
-    //code here
+    let last;
+    return (...args) => {
+        let prov = (func(...args)===last);
+        last=func(...args)
+        return {cache:prov,result:last,}
+    }
 }
 
 module.exports = memoize;
