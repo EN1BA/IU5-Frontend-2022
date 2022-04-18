@@ -1,0 +1,64 @@
+.buttons{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.btnedit{
+    margin-left: 24px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    background-color: white;
+    border-color: orange;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.btndel{
+    margin-left: 24px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    background-color: white;
+    border-color: orange;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.btnst{
+    margin-left: 24px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    background-color: white;
+    border-color: orange;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.list{
+    margin-top: 20px;
+}
+
+.btnsave{
+    width: 80px;
+    height: 28px;
+    cursor: pointer;
+    background-color: white;
+    border-color: orange;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.editinp {
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
